@@ -1,11 +1,29 @@
 from tkinter import * 
 from tkinter.ttk import *
+from tkinter import filedialog
 
 from functools import partial
 
 import json 
 import random
 
+#GLOBAL VARIABLES
+categories = []
+category_questions, final_jeopardy = {}, {} 
+questions = [100, 200, 300, 400, 500]
+
+board_multiplier = 0
+questions_asked = 0 
+daily_double_cnt = 0
+
+player_scores = {}
+
+player_labels = []
+
+buttons = []
+labels = []
+
+#helper functions 
 
 def draw_players(): 
     for label in player_labels: 
@@ -100,6 +118,25 @@ def add_score():
 
     button = Button(temp, text="OK!", command=partial(update_player_scores, player_input, amount_input, temp)).grid(row = 4, column = 0)
 
+def make_final_jeopardy(): 
+    #clear anything that might have been drawn first 
+    add_player.destroy()
+    add_score.destroy()
+    change_scene.destroy()
+
+    for label in labels: 
+        label.destroy()
+
+    for button in buttons: 
+        button.destroy()
+
+    title = Label(root, text="Final Jeopardy! The category is: " + final_jeopardy['category']).place(relx = 0.5, rely = 0.2, anchor = CENTER)
+    question = Label(root, text = final_jeopardy['question'])
+    answer = Label(root, text = final_jeopardy['answer'])
+
+    show_question = Button(root, text="Show Question", command = lambda: question.place(relx = 0.5, rely = 0.6, anchor = CENTER)).place(relx = 0.3, rely = 0.4, anchor = CENTER)
+    show_answer = Button(root, text="Show Answer", command = lambda: answer.place(relx = 0.5, rely = 0.8, anchor = CENTER)).place(relx = 0.7, rely = 0.4, anchor = CENTER)
+
 def change_scene(): 
     global board_multiplier
     global questions_asked
@@ -111,10 +148,9 @@ def change_scene():
     if board_multiplier == 0: 
         board_multiplier = 1
         make_board()
-    else: 
-        #final jeopardy
+    elif board_multiplier == 1: 
+        make_final_jeopardy()
         pass
-
 
 # show on the window
 def make_board():
@@ -138,22 +174,67 @@ def make_board():
             button.grid(row=c + 1, column=r)
 
 
-def load_data(filename): 
+def reset_game():
+    global categories
+    global category_questions, final_jeopardy
+    global questions
+
+    global board_multiplier
+    global questions_asked 
+    global daily_double_cnt
+
+    global player_scores
+
+    global player_labels
+
+    global buttons
+    global labels
+
     categories = []
-    category_questions = {}
+    category_questions, final_jeopardy = {}, {} 
+    questions = [100, 200, 300, 400, 500]
+
+    board_multiplier = 0
+    questions_asked = 0 
+    daily_double_cnt = 0
+
+    player_scores = {}
+
+    player_labels = []
+
+    buttons = []
+    labels = []
+
+def load_data(filename): 
+    print("file: ", filename)
+
+    global categories
+    global category_questions 
+    global final_jeopardy 
 
     with open(filename, encoding="latin1") as f: 
         data = json.load(f)
         categories = data['categories']
         category_questions = data['questions']
-    
-    
-    return categories, category_questions
+        final_jeopardy = data['final_jeopardy']
+
+    make_board()
+
+def browse_files():
+    reset_game()
+
+    selected_file = filedialog.askopenfilename(initialdir = "./", 
+        title = "Select a File",
+        filetypes = (("Text files", "*.json*"),("all files","*.*")))
+
+    file_label.configure(text=selected_file)
+
+    load_data(selected_file)
 
 # main window object named root
 root = Tk()
 root.option_add('*Font', '19')
-root.geometry("850x400")
+root.geometry("880x400")
 root.title("Jeopardy!")
 
         
@@ -169,20 +250,11 @@ add_score.place(relx = 0.5, rely = 0.5, anchor = CENTER)
 change_scene = Button(root, text ="Next Board", command=change_scene)
 change_scene.place(relx = 0.8, rely = 0.5, anchor = E)
 
-categories, category_questions = load_data('./board_1.json') 
-questions = [100, 200, 300, 400, 500]
+#file browsing buttons 
+file_browse_btn = Button(root, text="Select Game Board", command=browse_files).place(relx=0.2, rely=0.8, anchor=CENTER)
 
-board_multiplier = 0
-questions_asked = 0 
-daily_double_cnt = 0
+file_label = Label(root, text="No file selected")
+file_label.place(relx=0.5, rely=0.9, anchor=CENTER)
 
-player_scores = {}
-
-player_labels = []
-
-buttons = []
-labels = []
-
-make_board()
-
-root.mainloop()
+if __name__ == "__main__":
+    root.mainloop()
