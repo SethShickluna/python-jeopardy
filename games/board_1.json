@@ -174,5 +174,6 @@
                 "question":"In chemistry it is a substance that changes color to indicate the presence of some ion or substance.", "answer":"Indicator"
             }
         }
-    }
+    }, 
+    "final_jeopardy":{"category":"Mathematics", "question":"What is the quadradic formula used for?", "answer":"Finding the roots of a quadradic function."}
 }
