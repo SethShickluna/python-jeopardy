@@ -1,0 +1,178 @@
+{
+    "categories":[
+        ["Windows", "Video Games", "Capital Cities", "Anime", "Get Trumped"], 
+        ["Top 100 Chart", "Star Wars", "Natural Disasters", "Sports", "Words in Dictionary"]
+    ], 
+    "questions":{
+        "Windows":{
+            "100":{
+                "question":"In which year was Windows XP released?", "answer":"2001"
+            },
+            "200":{
+                "question":"In the Windows operating system, how do you run a program which requires elevated permissions?", "answer":"Run as Administrator"
+            },
+            "300":{
+                "question":"In which century did glass windows become common in homes?", "answer":"The 17th Century"
+            },
+            "400":{
+                "question":"Before glass, what were windows commonly made from?", "answer":"Paper or Cloth or Animal Hide or flattened animal horns or thin slices of marble"
+            }, 
+            "500":{
+                "question":"How many windows does the empire state building have?", "answer":"6514"
+            }
+        }, 
+        "Video Games":{
+            "100":{
+                "question":"This game involves killing dragons and absorbing their souls.", "answer":"Skyrim"
+            },
+            "200":{
+                "question":"This Board game recently hit the E Sports scene with TSM's signing of Hikaru Nakamura.", "answer":"Chess"
+            },
+            "300":{
+                "question":"In Call of Duty: Modern Warfare 2 what is the last camoflauge unlocked for your weapon?", "answer":"Autumn"
+            },
+            "400":{
+                "question":" NVidia's new tech DLSS can dramatically improve framerates of games but what does it stand for", "answer":"Deep Learning Super Sampling"
+            }, 
+            "500":{
+                "question":"In minecraft what is the workstation for the Fisherman profession?", "answer":"Barrel"
+            }
+        },
+        "Capital Cities":{
+            "100":{
+                "question":"Cairo is the capital of which country?", "answer":"Egypt"
+            },
+            "200":{
+                "question":"What capital city can be translated as 'Good Airs'", "answer":"Buenos Aries"
+            },
+            "300":{
+                "question":"If you are looking at the Mona Lisa which capital city are you in?", "answer":"Paris"
+            },
+            "400":{
+                "question":"Nassau is the capital of which island nation?", "answer":"The Bahamas"
+            }, 
+            "500":{
+                "question":"What is the capital of Turkey?", "answer":"Ankara"
+            }
+        },
+        "Anime":{
+            "100":{
+                "question":"This Anime features a character with a power level of over 9000", "answer":"Dragon Ball Z"
+            },
+            "200":{
+                "question":"This protagonist is so strong he can kill anyone in a single punch", "answer":"Saitama (One Punch Man)"
+            },
+            "300":{
+                "question":" Who was the first member of the First Levi Squad to die in Attack on Titan?", "answer":"Gunther"
+            },
+            "400":{
+                "question":"This is the longest running anime of all time", "answer":"Sazae-San"
+            }, 
+            "500":{
+                "question":"It's a sports anime about figure skating", "answer":"Yuri!!! on ICE"
+            }
+        },
+        "Get Trumped":{
+            "100":{
+                "question":"This poker hand Trumps all other hands", "answer":"Royal Flush"
+            },
+            "200":{
+                "question":" Lil' Pump may have gotten Trumped when the former US President called him this", "answer":"Lil' Pimp"
+            },
+            "300":{
+                "question":"The professional video game player 'Trump' is known for what game(s)?", "answer":"Hearthstone or Starcraft II"
+            },
+            "400":{
+                "question":"To Trump a Trumpet is to do what?", "answer":"To Play it"
+            }, 
+            "500":{
+                "question":"On this date Twitter banned Donald J Trump's twitter account", "answer":"Jan 8th 2021"
+            }
+        },
+        "Top 100 Chart":{
+            "100":{
+                "question":"What year did Despacito hit the charts - spending 23 weeks in the top 10", "answer":"2017"
+            },
+            "200":{
+                "question":"This song, is the current record holder for spending 19 weeks at #1 on the top 100 chart", "answer":"Old Town Road"
+            },
+            "300":{
+                "question":" This song has the most amount of weeks (non consecutive) in the top 5 at 43", "answer":"Blinding Lights"
+            },
+            "400":{
+                "question":" Ed Sheeran's 'Thinking out loud' was kept out of #1 for 8 weeks by what song?", "answer":"Uptown Funk"
+            }, 
+            "500":{
+                "question":"On January 2nd this artist experienced the biggest drop from number 1 falling to 38th place", "answer":"Taylor Swift"
+            }
+        }, 
+        "Star Wars":{
+            "100":{
+                "question":"What was the first thing Obi-Wan said to general grevious before their fight in Episode III", "answer":"Hello there!"
+            },
+            "200":{
+                "question":"What does AT-AT stand for?", "answer":"All Terrian Armoured Transport"
+            },
+            "300":{
+                "question":"C3PO is fluent in over this many languages.", "answer":"6 Million"
+            },
+            "400":{
+                "question":"Din Djarin might be better known under this name", "answer":"The Mandolorian"
+            }, 
+            "500":{ 
+                "question":"This actor voiced Yoda in all Live-Action Star Wars Films", "answer":"Frank Oz"
+            }
+        },
+        "Natural Disasters":{
+            "100":{
+                "question":"In 2005 this Hurricane ravaged Lousiana, specifically New Orleans", "answer":"Hurricane Katrina"
+            },
+            "200":{
+                "question":"This Natural Disaster is caused by warm, humid air rising and cool air falling during a large thunderstorm", "answer":"Tornato"
+            },
+            "300":{
+                "question":"Hurricane florence hit which State (USA) in September 2018", "answer":"North Carolina"
+            },
+            "400":{
+                "question":"This japanese city was hit with a 9.0 earthquake and a following tsunami", "answer":"Tohuku"
+            }, 
+            "500":{
+                "question":"In 1908 an explosion with the magnitude of a 5.0 earthquake hit siberia what was the cause of this event?", "answer":"Air burst of meteorite"
+            }
+        },
+        "Sports":{
+            "100":{
+                "question":"This sport is played with a paddle, not a bat", "answer":"Cricket"
+            },
+            "200":{
+                "question":"LeBron James has won this many NBA titles", "answer":"Four"
+            },
+            "300":{
+                "question":"Which 2 NHL Brothers have the record for most combined points?", "answer":"Wanye and Brent Gretzky"
+            },
+            "400":{
+                "question":"In which winter sport are the terms “stale fish” and “mule kick” used?", "answer":"Snowboarding"
+            }, 
+            "500":{
+                "question":"How many sports were included in the 2008 summer Olympics", "answer":"28"
+            }
+        },
+        "Words in Dictionary":{
+            "100":{
+                "question":"This drug is known for psycadellic effects and typically lasts around 10 hours.", "answer":"Acid"
+            },
+            "200":{
+                "question":"A group of northern European countries, including the likes of Norway and Iceland.", "answer":"Nordic"
+            },
+            "300":{
+                "question":"Bronze is an alloy which is made by mixing copper with this metal.", "answer":"tin"
+            },
+            "400":{
+                "question":"Rotting food could be described by this word.", "answer":"Rancid"
+            }, 
+            "500":{
+                "question":"In chemistry it is a substance that changes color to indicate the presence of some ion or substance.", "answer":"Indicator"
+            }
+        }
+    }
+}
