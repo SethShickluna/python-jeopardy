@@ -1,179 +1,179 @@
 {
     "categories":[
-        ["Automobiles", "Everything Apple", "Geography", "Women of History", "Mathematics"], 
+        ["Languages", "Everything Apple", "Women of History", "Geography", "Mathematics"], 
         ["Slogans", "Books & Literature", "Mountains", "Before and After", "Ancient Civilizations"]
     ], 
     "questions":{
-        "Automobiles":{
+        "Languages":{
             "100":{
-                "question":"question", "answer":"answer"
+                "question":"These 3 languages make up the Romance languages", "answer":"Spanish, French, and Italian"
             },
             "200":{
-                "question":"question", "answer":"answer"
+                "question":"What is the closest major language to English", "answer":"Dutch"
             },
             "300":{
-                "question":"question", "answer":"answer"
+                "question":"The script which is used to write  Slavic languages is called what?", "answer":"Cyrillic"
             },
             "400":{
-                "question":"question", "answer":"answer"
+                "question":"In Lord of the Rings, the Tengwar script is used to write which language(s)?", "answer":"Elvish"
             }, 
             "500":{
-                "question":"question", "answer":"answer"
+                "question":"Arabic is the official language of this many countries", "answer":"23"
             }
         }, 
         "Everything Apple":{
             "100":{
-                "question":"question", "answer":"answer"
+                "question":"Everyone knows the name of Apple's wireless earbuds, the AirPods, but what about their wired siblings?", "answer":"Earpods"
             },
             "200":{
-                "question":"question", "answer":"answer"
+                "question":"Why do apples float?", "answer":"Because 25% of their volume is air"
             },
             "300":{
-                "question":"question", "answer":"answer"
+                "question":"This model of the iPhone is the best selling apple pone of all time.", "answer":"iPhone 6"
             },
             "400":{
-                "question":"question", "answer":"answer"
+                "question":"What year did Steve Jobs announce the iPhone 3", "answer":"2007"
             }, 
             "500":{
-                "question":"question", "answer":"answer"
+                "question":"There are at least this many kinds of apples growing all over the world", "answer":"7000"
+            }
+        },
+        "Women of history":{
+            "100":{
+                "question":"She was the first female aviator to fly solo across the Atlantic Ocean", "answer":"Ameila Earhart"
+            },
+            "200":{
+                "question":"She is the longest serving female head of state in history.", "answer":"Elizabeth II"
+            },
+            "300":{
+                "question":"She was a civil rights activist who is best known for her role in the Montgomery bus boycott", "answer":"Rosa Parks"
+            },
+            "400":{
+                "question":"This woman was shot in the head at the age of 15 for publicly speaking out on women's rights to education.", "answer":"Malala Yousafzai"
+            }, 
+            "500":{
+                "question":"She was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity.", "answer":"Marie Curie"
             }
         },
         "Geography":{
             "100":{
-                "question":"question", "answer":"answer"
+                "question":"What is earth's largest continent?", "answer":"Asia"
             },
             "200":{
-                "question":"question", "answer":"answer"
+                "question":"What is the largest city in Saskatchewan", "answer":"Saskatoon"
             },
             "300":{
-                "question":"question", "answer":"answer"
+                "question":"This country has a European Side and an Asian Side", "answer":"Turkey or Russia"
             },
             "400":{
-                "question":"question", "answer":"answer"
+                "question":"What percentage of the Nile river is located in Egypt", "answer":"22%"
             }, 
             "500":{
-                "question":"question", "answer":"answer"
-            }
-        },
-        "Women of History":{
-            "100":{
-                "question":"question", "answer":"answer"
-            },
-            "200":{
-                "question":"question", "answer":"answer"
-            },
-            "300":{
-                "question":"question", "answer":"answer"
-            },
-            "400":{
-                "question":"question", "answer":"answer"
-            }, 
-            "500":{
-                "question":"question", "answer":"answer"
+                "question":"How many countries border France?", "answer":"11"
             }
         },
         "Mathematics":{
             "100":{
-                "question":"question", "answer":"answer"
+                "question":"What is the equation of a line?", "answer":"y = mx + b"
             },
             "200":{
-                "question":"question", "answer":"answer"
+                "question":"Numbers such as pi, and the square root of 2 are known as what?", "answer":"Irrational"
             },
             "300":{
-                "question":"question", "answer":"answer"
+                "question":"What does taking the derivative of a function yield?", "answer":"The Rate of Change"
             },
             "400":{
-                "question":"question", "answer":"answer"
+                "question":"A complex number is a number of the form a + bi, what does i denote?", "answer":"The square root of negative 1"
             }, 
             "500":{
-                "question":"question", "answer":"answer"
+                "question":"A perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself. What is the smallest perfect number?", "answer":"Six"
             }
         },
         "Slogans":{
             "100":{
-                "question":"question", "answer":"answer"
+                "question":"Just do it!", "answer":"Nike"
             },
             "200":{
-                "question":"question", "answer":"answer"
+                "question":"The Happiest Place on Earth", "answer":"Disneyland"
             },
             "300":{
-                "question":"question", "answer":"answer"
+                "question":"The Quicker Picker Upper", "answer":"Bounty"
             },
             "400":{
-                "question":"question", "answer":"answer"
+                "question":"The Ultimate Driving Machine", "answer":"BMW"
             }, 
             "500":{
-                "question":"question", "answer":"answer"
+                "question":"Think outside the bun", "answer":"Taco Bell"
             }
         }, 
         "Books & Literature":{
             "100":{
-                "question":"question", "answer":"answer"
+                "question":"This dystopian science fiction by George Orwell was not released in that year.", "answer":"1984 (1949)"
             },
             "200":{
-                "question":"question", "answer":"answer"
+                "question":"This is the best selling book series of all time, selling more than 500 Million copies worldwide.", "answer":"Harry Potter"
             },
             "300":{
-                "question":"question", "answer":"answer"
+                "question":"This Fantasy novel contains the famous quote, 'Not all who wander are lost'.", "answer":"The Fellowship of the Ring"
             },
             "400":{
-                "question":"question", "answer":"answer"
+                "question":"Which Stephen King novel takes place mostly in the fictional Overlook Hotel?", "answer":"The Shining"
             }, 
             "500":{
-                "question":"question", "answer":"answer"
+                "question":"How many Sonnets did Shakespeare write?", "answer":"154"
             }
         },
         "Mountains":{
             "100":{
-                "question":"question", "answer":"answer"
+                "question":"Mount Everest is located in this country.", "answer":"Nepal"
             },
             "200":{
-                "question":"question", "answer":"answer"
+                "question":"Denali is the highest mountain in North America, where is it located?", "answer":"Alaska"
             },
             "300":{
-                "question":"question", "answer":"answer"
+                "question":"This mountain is the second highest in the world.", "answer":"K2"
             },
             "400":{
-                "question":"question", "answer":"answer"
+                "question":"In Game of Thrones, which character was portrayed by Hafthor Bjorngsen?", "answer":"The Mountain"
             }, 
             "500":{
-                "question":"question", "answer":"answer"
+                "question":"This mountainous region of Switzerland is home to The Eiger among other mountains", "answer":"The Jungfrau Region"
             }
         },
         "Before and After":{
             "100":{
-                "question":"question", "answer":"answer"
+                "question":"An Ice-cream chain who steals from the rich and gives to the poor", "answer":"Baskin Robin Hood"
             },
             "200":{
-                "question":"question", "answer":"answer"
+                "question":"A large white arctic predator that shows off his survival skills for viewers at home", "answer":"Polar Bear Grills"
             },
             "300":{
-                "question":"question", "answer":"answer"
+                "question":"Tony Stark's superhero persona who boasts shaving products such as the lawnmower 4.0", "answer":"Iron Man Scaped"
             },
             "400":{
-                "question":"question", "answer":"answer"
+                "question":"A celestial body which creates intense gravity that scores an ace in golf?", "answer":"Black hole in one"
             }, 
             "500":{
-                "question":"question", "answer":"answer"
+                "question":"Kanye West's daughter that is a romantic broadway production.", "answer":"North West Side Story"
             }
         },
         "Ancient Civilizations":{
             "100":{
-                "question":"question", "answer":"answer"
+                "question":"This Ancient Civilization recognized Zeus as the King of the Gods", "answer":"Greece"
             },
             "200":{
-                "question":"question", "answer":"answer"
+                "question":"This metal is associated with the end of the Stone Age", "answer":"Bronze"
             },
             "300":{
-                "question":"question", "answer":"answer"
+                "question":"The civilization that grew along the Tigris and Euphrates rivers was called", "answer":"Mesopotamia"
             },
             "400":{
-                "question":"question", "answer":"answer"
+                "question":"Which ancient civilization regarded childbirth as a form of battle. Women who died during childbirth were believed to become the companions of the Sun and rise to the highest heavens?", "answer":"The Aztecs"
             }, 
             "500":{
-                "question":"question", "answer":"answer"
+                "question":"Which civilization invented the wheel?", "answer":"The Sumerians"
             }
         }
     }, 
-    "final_jeopardy":{"category":"Board Games", "question":"question", "answer":"answer"}
+    "final_jeopardy":{"category":"Board Games", "question":"a strategy board game of diplomacy, conflict and conquest, which is played on a politcal map of the world.", "answer":"Risk"}
 }

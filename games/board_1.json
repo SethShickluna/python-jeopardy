@@ -114,7 +114,7 @@
                 "question":"What does AT-AT stand for?", "answer":"All Terrian Armoured Transport"
             },
             "300":{
-                "question":"C3PO is fluent in over this many languages.", "answer":"6 Million"
+                "question":"C3PO is fluent in at least his many languages.", "answer":"6 Million"
             },
             "400":{
                 "question":"Din Djarin might be better known under this name", "answer":"The Mandolorian"

@@ -134,8 +134,10 @@ def make_final_jeopardy():
     question = Label(root, text = final_jeopardy['question'])
     answer = Label(root, text = final_jeopardy['answer'])
 
-    show_question = Button(root, text="Show Question", command = lambda: question.place(relx = 0.5, rely = 0.6, anchor = CENTER)).place(relx = 0.3, rely = 0.4, anchor = CENTER)
-    show_answer = Button(root, text="Show Answer", command = lambda: answer.place(relx = 0.5, rely = 0.8, anchor = CENTER)).place(relx = 0.7, rely = 0.4, anchor = CENTER)
+    show_question = Button(root, text="Show Question", 
+        command = lambda: question.place(relx = 0.5, rely = 0.6, anchor = CENTER)).place(relx = 0.3, rely = 0.4, anchor = CENTER)
+    show_answer = Button(root, text="Show Answer", 
+        command = lambda: answer.place(relx = 0.5, rely = 0.8, anchor = CENTER)).place(relx = 0.7, rely = 0.4, anchor = CENTER)
 
 def change_scene(): 
     global board_multiplier
@@ -190,6 +192,12 @@ def reset_game():
     global buttons
     global labels
 
+    for label in labels: 
+        label.destroy()
+
+    for button in buttons: 
+        button.destroy()
+
     categories = []
     category_questions, final_jeopardy = {}, {} 
     questions = [100, 200, 300, 400, 500]
@@ -227,7 +235,8 @@ def browse_files():
         title = "Select a File",
         filetypes = (("Text files", "*.json*"),("all files","*.*")))
 
-    file_label.configure(text=selected_file)
+    file_name = selected_file.split('/')[-1]
+    file_label.configure(text=file_name[:-5])
 
     load_data(selected_file)
 
